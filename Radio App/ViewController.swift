@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Device Name: "+UIDevice.current.modelName);
+        print("Device-Name: "+UIDevice.current.modelName);
         
         UIApplication.shared.isIdleTimerDisabled = true
         
